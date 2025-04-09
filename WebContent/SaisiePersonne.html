@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>Formulaire de saisire</h1>
+<form action="AjoutSrvlet" method="post">
+        <label for="nom">nom :</label><br>
+        <input type="text" id="nom" name="nom" ><br>
+
+        <label for="prenom">prenom :</label><br>
+        <input type="text" id="prenom" name="prenom" ><br>
+        
+		<label for="sex">sex :</label><br>
+		<select id="sex" name="sex">
+			<option id="sex"  value="femm">femme</option>
+			<option id="sex"  value="homme">homme</option>
+		</select><br>
+		
+        <label for="cpost">code postal :</label><br>
+        <input type="int" id="cpost" name="cpost" ><br>
+
+        <button type="submit">Ajouter</button>
+        <button type="reset">Reset</button>
+</form>
+
+</body>
+</html>
